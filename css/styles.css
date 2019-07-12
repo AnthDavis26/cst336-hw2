@@ -1,0 +1,95 @@
+/* General */
+body {
+	background-color: #263852;
+	color: white;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+/* Links */
+a { 
+	color:white;
+}
+
+a:hover {
+	color: #aac5f0;
+}
+
+#article_title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#article_title2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#article_title3 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+article {
+	padding: 10px;
+}
+
+figure {
+	text-align: center;
+	font-style: italic;
+}
+
+
+/* Center contents */
+header {
+	text-align: center;
+	padding: 20px;
+	font-family: "Arial";
+}
+
+
+/* Main area */
+section {
+  display: flex;
+}
+
+/* Navigation bar */
+nav, header {
+	background: #041630;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+	nav ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	
+		nav li {
+			background-color:#152741;
+			text-align: center;
+			font-size: 2em;
+			display: block;
+			padding: 25px;
+			list-style-position:inside;
+			border: 1px solid black;
+		}
+
+		nav li:hover {
+			background-color:#374963;
+		}
+
+		nav a {
+			text-decoration: none;
+		}
+
+/* Footer */
+footer {
+	background-color: white;
+	width: 100%;
+	padding: 10px;
+	color: black;
+	text-align: center;
+}
