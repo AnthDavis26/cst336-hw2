@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <!--
-Anthony Davis
-CST336
-HW2
-July 12, 2019
+	Anthony Davis
+	CST336
+	HW2
+	July 12, 2019
 -->
-
     <head>
 		<meta charset="utf-8" />
 		<title>CST336 - HW2</title>
@@ -23,11 +22,19 @@ July 12, 2019
 
     <body>
 		<header>
-			<div id="jscript_hello"></div>
+			<!-- delete this stuff later -->
+			<div id="js_hello"></div>
 			<div id="css_hello">Hello from css land! If the text is white and the background is black, that is.</div>
 		</header>
-	
+		
+		<div id="questions">
+			<div id="question0"></div>
+			<div id="question1"></div>
+			<div id="question2"></div>
+		</span>
         
+		<p> This is what happens to those who procrastinate. </p>
+		
 		<script src='js/javascript.js'></script>
     </body>
     <!-- closing body -->
